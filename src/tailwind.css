@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.text-shadow {
+  text-shadow: 0px 4px 4px rgba(0,0,0,.25)
+}
+
 .header-button {
   @apply text-slate-900 font-semibold mx-4;
 }
@@ -34,6 +38,7 @@
 .home-content-social-media-icon {
   width: 28px;
   height: 28px;
+  display: block;
   @apply bg-slate-900
 }
 
@@ -56,4 +61,82 @@
 .envelope-icon {
   mask: url('/image/envelope-regular.svg') no-repeat center;
   mask-size: cover;
+}
+
+.about-me-content-icon {
+  display: block;
+  @apply bg-green-500;
+  position: relative;
+}
+
+.typescript-icon {
+  background-image: url('/image/typescript-icon.svg');
+  background-size: cover;
+  width: calc(70px * 0.6);
+  height: calc(70px * 0.6);
+}
+.javascript-icon {
+  mask: url('/image/js.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(70px * 0.6);
+  height: calc(70px * 0.6);
+}
+
+.html-icon {
+  mask: url('/image/html5.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(59.88px * 0.6);
+  height: calc(70px * 0.6);
+}
+.css-icon {
+  mask: url('/image/css3-alt.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(59.88px * 0.6);
+  height: calc(70px * 0.6);
+}
+.tailwind-icon {
+  mask: url('/image/tailwind.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(115px * 0.6);
+  height: calc(70px * 0.6);
+}
+.bd-icon {
+  mask: url('/image/database-solid.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(61px * 0.6);
+  height: calc(70px * 0.6);
+}
+.react-icon {
+  mask: url('/image/react.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(80px * 0.6);
+  height: calc(70px * 0.6);
+}
+.next-icon {
+  mask: url('/image/next-js.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(70px * 0.6);
+  height: calc(70px * 0.6);
+}
+.node-icon {
+  mask: url('/image/node.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(114px * 0.6);
+  height: calc(70px * 0.6);
+}
+.git-icon {
+  mask: url('/image/git-alt.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(70px * 0.6);
+  height: calc(70px * 0.6);
+}
+.php-icon {
+  mask: url('/image/php.svg') no-repeat center;
+  mask-size: cover;
+  width: calc(132px * 0.6);
+  height: calc(70px * 0.6);
+}
+
+.tooltip {
+  @apply block absolute text-slate-900 font-semibold text-center bg-slate-100 border-2 border-green-500 rounded-md px-3 py-1
 }
