@@ -1,3 +1,59 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header-button {
+  @apply text-slate-900 font-semibold mx-4;
+}
+
+.header-button-selected {
+  @apply text-green-500 font-bold
+}
+
+.header-button:hover {
+  @apply font-bold
+}
+
+.home-content-button-social-media {
+  @apply flex flex-row p-2 border-slate-900 rounded-md border-2 text-lg items-center cursor-pointer;
+}
+
+.home-content-button-social-media:hover {
+  @apply border-green-500;
+  
+}
+
+.home-content-button-social-media-text {
+  @apply text-slate-900 font-semibold ml-4;
+}
+
+.home-content-button-social-media:hover .home-content-button-social-media-text {
+  @apply text-green-500;
+}
+
+.home-content-social-media-icon {
+  width: 28px;
+  height: 28px;
+  @apply bg-slate-900
+}
+
+.home-content-button-social-media:hover .home-content-social-media-icon {
+  @apply bg-green-500
+}
+
+.github-icon {
+  mask: url('/image/github.svg') no-repeat center;
+  mask-size: cover;
+}
+.linkedin-icon {
+  mask: url('/image/linkedin.svg') no-repeat center;
+  mask-size: cover;
+}
+.whatsapp-icon {
+  mask: url('/image/whatsapp.svg') no-repeat center;
+  mask-size: cover;
+}
+.envelope-icon {
+  mask: url('/image/envelope-regular.svg') no-repeat center;
+  mask-size: cover;
+}
