@@ -3,8 +3,8 @@ import 'dotenv/config';
 import http from 'http'
 import express from 'express'
 
-import router from './router/index.js';
-import { staticFile } from './utils/static-file.js';
+import router from './src/router/index.js';
+import { staticFile } from './src/utils/static-file.js';
 
 const app = express()
 const server = http.createServer(app)
