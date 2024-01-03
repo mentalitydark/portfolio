@@ -1,3 +1,23 @@
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #22c55e #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0,0,0,.1);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #22c55e;
+  border-radius: 11px;
+  border: 0px solid #ffffff;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -139,4 +159,23 @@
 
 .tooltip {
   @apply block absolute text-slate-900 font-semibold text-center bg-slate-100 border-2 border-green-500 rounded-md px-3 py-1
+}
+
+.projects-icon {
+  @apply bg-green-500;
+  display: block;
+}
+
+.code-icon {
+  mask: url('/image/code-solid.svg') no-repeat center;
+  mask-size: cover;
+  width: 20px;
+  height: 16px;
+}
+
+.eye-icon {
+  mask: url('/image/eye-solid.svg') no-repeat center;
+  mask-size: cover;
+  width: 18px;
+  height: 14px;
 }
