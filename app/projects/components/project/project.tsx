@@ -31,7 +31,7 @@ export const Project = ({ title, image, children, tags, view_code_href, view_pro
         </Tooltip>
         {view_project_href && (
           <Tooltip title='Projeto rodando' placement='top' arrow>
-            <Link target='_blank' href={view_code_href} className='w-1/4 flex items-center justify-center py-2 border-slate-900 border rounded-sm text-green-500 dark:border-slate-300'>
+            <Link target='_blank' href={view_project_href} className='w-1/4 flex items-center justify-center py-2 border-slate-900 border rounded-sm text-green-500 dark:border-slate-300'>
               <Visibility />
             </Link>
           </Tooltip>
