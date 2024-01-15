@@ -1,6 +1,6 @@
 import type { SVGProps } from 'react'
 
-export interface IconProps {
+export interface MyIconProps {
   tooltip: string
   icon: TIcon
   width?: number

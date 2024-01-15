@@ -3,7 +3,7 @@
 import { Tooltip } from '@mui/material'
 import { createElement } from 'react'
 
-import type { IconProps, IconsMapped } from './icon-types'
+import type { MyIconProps, IconsMapped } from './my-icon-types'
 
 import {
   Css3,
@@ -19,7 +19,7 @@ import {
   Typescript,
 } from '@/components/icons'
 
-export const Icon = ({ tooltip, icon, width, height }: IconProps) => {
+export const MyIcon = ({ tooltip, icon, width, height }: MyIconProps) => {
   const Icons: IconsMapped = {
     css3: Css3,
     git: Git,
@@ -40,5 +40,7 @@ export const Icon = ({ tooltip, icon, width, height }: IconProps) => {
     className: 'text-green-500',
   })
 
-  return <Tooltip title={tooltip} placement='top' arrow><div>{Element}</div></Tooltip>
+  return (
+    <Tooltip title={tooltip} placement='top' arrow><div>{Element}</div></Tooltip>
+  )
 }
