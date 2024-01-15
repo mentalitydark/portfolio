@@ -1,3 +1,5 @@
+'use client'
+
 import { Header } from '@/components'
 import { Pages } from '@/enums'
 import apiNodeImage from '@/public/image/api-node.png'

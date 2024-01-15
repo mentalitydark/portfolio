@@ -1,3 +1,5 @@
+'use client'
+
 import type { EducationProps } from './education-types'
 
 export const Education = ({ institution, period, course }: EducationProps) => {

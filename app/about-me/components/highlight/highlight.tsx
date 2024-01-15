@@ -1,3 +1,5 @@
+'use client'
+
 import type { ReactNode } from 'react'
 
 export const Highlight = ({ children }: { children: ReactNode }) => {

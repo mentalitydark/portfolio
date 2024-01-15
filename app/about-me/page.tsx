@@ -1,9 +1,11 @@
+'use client'
+
 import { Divider, Stack } from '@mui/material'
 
 import { Header } from '@/components'
 import { Pages } from '@/enums'
 
-import { Section, Highlight, Paragraph, Abilities, Icon, Education } from './components'
+import { Section, Highlight, Paragraph, Abilities, MyIcon, Education } from './components'
 
 export default function AboutMe() {
   return (
@@ -62,17 +64,17 @@ export default function AboutMe() {
             <div className='flex flex-col'>
               <Section title='Tecnologias'>
                 <div className='grid grid-cols-4 my-8 gap-y-5 items-center justify-items-center max-sm:grid-cols-3'>
-                  <Icon tooltip='Typescript' icon='typescript' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='Javascript' icon='javascript' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='HTML5' icon='html5' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='CSS3' icon='css3' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='Tailwind CSS' icon='tailwind' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='MySQL e PostgreSQL' icon='mysql' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='React e React Native' icon='react' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='Next.Js' icon='nextjs' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='Node.Js' icon='node' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='Git' icon='git' width={70 * 0.6} height={70 * 0.6} />
-                  <Icon tooltip='PHP' icon='php' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='Typescript' icon='typescript' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='Javascript' icon='javascript' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='HTML5' icon='html5' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='CSS3' icon='css3' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='Tailwind CSS' icon='tailwind' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='MySQL e PostgreSQL' icon='mysql' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='React e React Native' icon='react' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='Next.Js' icon='nextjs' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='Node.Js' icon='node' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='Git' icon='git' width={70 * 0.6} height={70 * 0.6} />
+                  <MyIcon tooltip='PHP' icon='php' width={70 * 0.6} height={70 * 0.6} />
                 </div>
               </Section>
               <Section title='Idiomas'>

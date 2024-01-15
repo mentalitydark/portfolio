@@ -1,3 +1,5 @@
+'use client'
+
 import { EmailOutlined, GitHub, LinkedIn, WhatsApp } from '@mui/icons-material'
 import { Box } from '@mui/material'
 import Image from 'next/image'

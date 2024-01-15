@@ -1,3 +1,5 @@
+'use client'
+
 import type { SectionProps } from './section-types'
 
 export const Section = ({ title, children }: SectionProps) => {
