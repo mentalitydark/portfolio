@@ -8,7 +8,7 @@ Como o foco é ser algo leve e rápido, optei por utilizar HTML, Javascript e CS
  - Express
 
 ### Metas para o repositório
- - [ ] Adicionar modo escuro
+ - [x] Adicionar modo escuro
  - [ ] Adicionar troca de idioma
- - [ ] Melhorar textos em "Sobre mim"
- - [ ] Facilitar adição de projetos
+ - [x] Melhorar textos em "Sobre mim"
+ - [x] Facilitar adição de projetos
