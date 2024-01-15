@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-slate-50 selection:bg-green-300;
+  @apply dark:bg-gray-900 dark:selection:bg-green-700;
+  transition: 0.2s;
+}
+
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #22c55e #ffffff;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgba(0,0,0,.1);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #22c55e;
+  border-radius: 11px;
+  border: 0px solid #ffffff;
+}
