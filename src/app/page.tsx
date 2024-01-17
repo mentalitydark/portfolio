@@ -4,8 +4,8 @@ import { EmailOutlined, GitHub, LinkedIn, WhatsApp } from '@mui/icons-material'
 import { Box } from '@mui/material'
 import Image from 'next/image'
 
-import { Header } from '@/components'
-import { Pages } from '@/enums'
+import { Header } from '@/src/components'
+import { Pages } from '@/src/enums'
 import HomePageSVG from '@/public/svg/home-developer.svg'
 
 import { SocialMediaButton } from './components'

@@ -1,4 +1,4 @@
-import type { Pages } from '@/enums'
+import type { Pages } from '@/src/enums'
 
 export interface HeaderProps {
   currentPage: Pages

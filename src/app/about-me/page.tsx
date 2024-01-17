@@ -2,8 +2,8 @@
 
 import { Divider, Stack } from '@mui/material'
 
-import { Header } from '@/components'
-import { Pages } from '@/enums'
+import { Header } from '@/src/components'
+import { Pages } from '@/src/enums'
 
 import { Section, Highlight, Paragraph, Abilities, MyIcon, Education } from './components'
 

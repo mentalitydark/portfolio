@@ -1,6 +1,6 @@
 import type { HeaderProps } from './header-types'
 
-import { Pages } from '@/enums'
+import { Pages } from '@/src/enums'
 
 import { DarkModeSwitch, LinkHeader } from './components'
 

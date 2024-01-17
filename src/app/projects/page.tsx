@@ -1,7 +1,7 @@
 'use client'
 
-import { Header } from '@/components'
-import { Pages } from '@/enums'
+import { Header } from '@/src/components'
+import { Pages } from '@/src/enums'
 import apiNodeImage from '@/public/image/api-node.png'
 import estagioImage from '@/public/image/estagio.png'
 import multiplayerImage from '@/public/image/multiplayer-game.png'

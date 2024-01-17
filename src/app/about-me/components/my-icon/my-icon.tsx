@@ -17,7 +17,7 @@ import {
   Php,
   Tailwind,
   Typescript,
-} from '@/components/icons'
+} from '@/src/components/icons'
 
 export const MyIcon = ({ tooltip, icon, width, height }: MyIconProps) => {
   const Icons: IconsMapped = {
