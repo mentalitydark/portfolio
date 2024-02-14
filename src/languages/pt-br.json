@@ -1,0 +1,113 @@
+{
+  "pages": {
+    "home": {
+      "metadata": {
+        "title": "Página Inicial"
+      },
+      "content": {
+        "firstText": "Olá,",
+        "secondText": "meu nome é",
+        "name": "Guilherme P. de Oliveira",
+        "job": "Sou desenvolvedor Fullstack"
+      }
+    },
+    "about-me": {
+      "metadata": {
+        "title": "Sobre Mim"
+      },
+      "content": {
+        "about-me": {
+          "title": "Sobre Mim",
+          "paragraph": "Tenho uma paixão intensa pela programação desde o momento em que me envolvi com ela pela primeira vez durante meu período no <Highlight>IFRS</Highlight>. Desde então, tenho dedicado minha energia à transformação de ideias em realidade, sempre em busca de novos desafios para aprimorar minhas habilidades. Atualmente, estou matriculado no curso de <Highlight>Engenharia de Software</Highlight>, e meu grande sonho é tornar-me um desenvolvedor de jogos. Este caminho acadêmico e profissional tem sido uma jornada incrível, impulsionando minha determinação em alcançar meus objetivos na área da programação de jogos."
+        },
+        "front-end": {
+          "title": "Desenvolvedor front-end",
+          "paragraph": "Minha principal atuação atual concentra-se na área de front-end. Desde o início do meu ensino técnico até o momento presente, tenho dedicado tempo contínuo ao estudo e à programação na interface do usuário. Conto com uma variedade de projetos, tanto utilizando frameworks/libs quanto sem sua utilização."
+        },
+        "back-end": {
+          "title": "Desenvolvedor back-end",
+          "paragraph": "Embora meus estudos em back-end não sejam tão aprofundados quanto os de front-end, continuo me dedicando ao aprendizado constante, explorando novas tecnologias nesta área. Minha formação no <Highlight>IFRS</Highlight> abrange tanto front-end quanto back-end, proporcionando-me conhecimentos sólidos em aspectos como banco de dados, APIs e afins."
+        },
+        "mobile": {
+          "title": "Desenvolvedor mobile",
+          "paragraph": "Embora eu não tenha dedicado tanto tempo ao desenvolvimento de aplicativos móveis, adquiri conhecimentos sólidos em <Highlight>React Native</Highlight> através da minha experiência profissional."
+        },
+        "abilities": "Minhas principais tecnologias são:",
+        "technology": "Tecnologias",
+        "languages": {
+          "title": "Idiomas",
+          "portuguese": "Português: Nativo",
+          "english": "Inglês: Basico (estudando)"
+        },
+        "professional-experience": {
+          "title": "Experiência profissional",
+          "datamex": {
+            "title": "Datamex Tecnologia da Informação LTDA",
+            "role": "Programador Júnior",
+            "description": "Desempenhava atividades de programação utilizando <Highlight>Javascript</Highlight>/<Highlight>Typescript</Highlight> e <Highlight>PHP</Highlight>. Grande parte do sistema era feito utilizando um framework, em <Highlight>PHP</Highlight>, interno da empresa. Havia um subproduto que estava em desenvolvimento utilizando <Highlight>Next.Js</Highlight>. Além disso, utilizava <Highlight>React Native</Highlight> para o desenvolvimento do aplicativo mobile com conexão via API utilizando <Highlight>PHP</Highlight>. Quando necessário, criar, ou editar, tabelas do banco de dados <Highlight>MySQL</Highlight>."
+          },
+          "datamex-by-nstech": {
+            "title": "Datamex by nstech",
+            "role": "Junior Programmer",
+            "description": "Desempenho atividades de programação utilizando <Highlight>Javascript</Highlight> e <Highlight>PHP</Highlight>. Grande parte do sistema é feito utilizando um framework, em <Highlight>PHP</Highlight>, interno da empresa. Quando necessário, criar, ou editar, tabelas do banco de dados <Highlight>MySQL</Highlight>."
+          }
+        },
+        "education": {
+          "title": "Formação acadêmica",
+          "ifrs": {
+            "title": "Instituto Federal do Rio Grande do Sul Campus Rio Grande",
+            "course": "Informática para Internet"
+          },
+          "estacio": {
+            "title": "Universidade Estácio de Sá",
+            "course": "Engenharia de Software"
+          }
+        }
+      }
+    },
+    "projects": {
+      "metadata": {
+        "title": "Projetos"
+      },
+      "content": {
+        "projects": {
+          "pokedex": {
+            "title": "Pokedex",
+            "description": "Um site simples que lista todos pokemons separados por geração. Tive o desejo de criar esse projeto por ser algo que muitos desenvolvedores criam no seu início. Algo que fiz para não deixar tão básico e simples foi a possibilidade de inspecionar o pokemon ao clicar nele. Com essa funcionalidade, pude testar o recurso de rota dinâmica do NextJs."
+          },
+          "multiplayer-game": {
+            "title": "Jogo Multi-jogadores",
+            "description": "Criei esse jogo para aprimorar minhas habilidades com o NodeJs e Websocket. O jogo consiste em ser uma competição de quem consegue adquirir mais frutas. Ainda estou com ideias para implementar e deixar cada vez melhor. Uma das minhas metas é adicionar um chat."
+          },
+          "ifrs-last-job": {
+            "title": "Finalização do curso do IFRS",
+            "description": "Esse jogo foi criado como finalização do curso de Informática para Internet do IFRS. A proposta era criar todo o código sem código externo. Então a parte de movimento, sprites, combate, inventário e afins foram criadas por mim. Por ter sido minha primeira vez tentando criar algo tão grande, faltou tempo para finalizar."
+          },
+          "periodic-table": {
+            "title": "Tabela periódica",
+            "description": "Esse projeto foi feito para a finalização do ano segundo ano do curso de Informática para Internet do IFRS. Conversamos com nosso professor de química sobre o que ele acharia interessante criar e por ter um colega com deficiência visual, ele propôs a criação de uma tabela periódica que pudesse utilizar. Também por estar no assunto, foi pensando em uma maneira de trocar a cor dos elementos caso o usuário tenha daltonismo."
+          },
+          "snake-game": {
+            "title": "Jogo da cobra",
+            "description": "Realizei esse projeto por estar a fim de criar um programa desktop. Pesquisando descobrir a existência do Electon e vi que era possível utilizar React com ele. Como tenho muita vontade de criar jogos, pensei em fazer um jogo básico utilizando isso."
+          },
+          "api-nodejs": {
+            "title": "API Node.js",
+            "description": "Uma API com autenticação e conexão ao bando MongoDB. O intuito foi aprender a criar uma API em node e conectar ao MongoDB. Também aproveitei e li sobre RFC 7807 e implementar esse padrão."
+          }
+        },
+        "buttons": {
+          "code": "Código",
+          "running": "Projeto rodando"
+        }
+      }
+    }
+  },
+  "components": {
+    "header": {
+      "home": "Página Inicial",
+      "about-me": "Sobre mim",
+      "projects": "Projetos"
+    }
+  }
+}
