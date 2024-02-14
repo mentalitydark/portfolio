@@ -1,5 +1,5 @@
-export interface LinkProps {
+export interface LinkHeaderProps {
   text: string
   href: string
-  selected?: boolean
+  selected: boolean
 }
