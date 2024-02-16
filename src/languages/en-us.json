@@ -1,0 +1,113 @@
+{
+  "pages": {
+    "home": {
+      "metadata": {
+        "title": "Home"
+      },
+      "content": {
+        "firstText": "Hello,",
+        "secondText": "my name is",
+        "name": "Guilherme P. de Oliveira",
+        "job": "I'm a Fullstack Developer"
+      }
+    },
+    "about-me": {
+      "metadata": {
+        "title": "About Me"
+      },
+      "content": {
+        "about-me": {
+          "title": "About Me",
+          "paragraph": "I have had an intense passion for programming since the moment I got involved with it for the first time during my time at <Highlight>IFRS</Highlight>. Since then, I have dedicated my energy to turning ideas into reality, always seeking new challenges to enhance my skills. Currently, I am enrolled in the <Highlight>Software Engineering</Highlight> course, and my big dream is to become a game developer. This academic and professional journey has been an incredible experience, fueling my determination to achieve my goals in the field of game programming."
+        },
+        "front-end": {
+          "title": "Front-end Developer",
+          "paragraph": "My main current focus is in the front-end area. From the beginning of my technical education to the present moment, I have devoted continuous time to studying and programming in the user interface. I have a variety of projects, both using frameworks/libs and without their usage."
+        },
+        "back-end": {
+          "title": "Back-end Developer",
+          "paragraph": "While my studies in back-end are not as deep as those in front-end, I continue to dedicate myself to constant learning, exploring new technologies in this area. My education at <Highlight>IFRS</Highlight> covers both front-end and back-end, providing me with solid knowledge in aspects such as databases, APIs, and related topics."
+        },
+        "mobile": {
+          "title": "Mobile Developer",
+          "paragraph": "Although I have not dedicated as much time to mobile app development, I have acquired solid knowledge in <Highlight>React Native</Highlight> through my professional experience."
+        },
+        "abilities": "My main technologies are:",
+        "technology": "Technologies",
+        "languages": {
+          "title": "Languages",
+          "portuguese": "Portuguese: Native",
+          "english": "English: Basic (studying)"
+        },
+        "professional-experience": {
+          "title": "Professional Experience",
+          "datamex": {
+            "title": "Datamex Information Technology LTDA",
+            "role": "Junior Programmer",
+            "description": "Performed programming activities using <Highlight>Javascript</Highlight>/<Highlight>Typescript</Highlight> and <Highlight>PHP</Highlight>. A significant part of the system was built using an internal company framework, in <Highlight>PHP</Highlight>. There was a subproduct in development using <Highlight>Next.Js</Highlight>. Additionally, used <Highlight>React Native</Highlight> for mobile app development with API connection using <Highlight>PHP</Highlight>. When necessary, created or edited <Highlight>MySQL</Highlight> database tables."
+          },
+          "datamex-by-nstech": {
+            "title": "Datamex by nstech",
+            "role": "Junior Programmer",
+            "description": "Perform programming tasks using <Highlight>Javascript</Highlight> and <Highlight>PHP</Highlight>. A significant portion of the system is built using an internal company framework in <Highlight>PHP</Highlight>. When necessary, I create or edit <Highlight>MySQL</Highlight> database tables."
+          }
+        },
+        "education": {
+          "title": "Academic Education",
+          "ifrs": {
+            "title": "Federal Institute of Rio Grande do Sul Campus Rio Grande",
+            "course": "Internet Computing"
+          },
+          "estacio": {
+            "title": "Estácio de Sá University",
+            "course": "Software Engineering"
+          }
+        }
+      }
+    },
+    "projects": {
+      "metadata": {
+        "title": "Projects"
+      },
+      "content": {
+        "projects": {
+          "pokedex": {
+            "title": "Pokedex",
+            "description": "A simple website that lists all Pokémon separated by generation. I had the desire to create this project as it is something many developers create in their early stages. To make it less basic and simple, I implemented the ability to inspect the Pokémon by clicking on them. With this functionality, I was able to test the dynamic routing feature of Next.js."
+          },
+          "multiplayer-game": {
+            "title": "Multiplayer Game",
+            "description": "I created this game to enhance my skills with Node.js and Websockets. The game involves a competition to acquire the most fruits. I still have ideas to implement and make it even better. One of my goals is to add a chat feature."
+          },
+          "ifrs-last-job": {
+            "title": "Completion of IFRS course",
+            "description": "This game was created as the culmination of the Internet Computing course at IFRS. The challenge was to create the entire code without external dependencies. So, the parts related to movement, sprites, combat, inventory, and more were developed by me. As it was my first time attempting to create something of this scale, time ran out to finish it."
+          },
+          "periodic-table": {
+            "title": "Periodic Table",
+            "description": "This project was created to conclude the second year of the Internet Computing course at IFRS. We talked to our chemistry teacher about what would be interesting to create, and since we had a colleague with visual impairment, he suggested creating a periodic table that could be used. Also, considering the topic, we thought of a way to change the color of the elements in case the user has color blindness."
+          },
+          "snake-game": {
+            "title": "Snake Game",
+            "description": "I undertook this project because I wanted to create a desktop program. In my research, I discovered the existence of Electron and realized it was possible to use React with it. Since I have a strong desire to create games, I thought of making a basic game using this technology."
+          },
+          "api-nodejs": {
+            "title": "Node.js API",
+            "description": "An API with authentication and connection to the MongoDB database. The goal was to learn how to create a Node.js API and connect it to MongoDB. I also took the opportunity to read about RFC 7807 and implement this standard."
+          }
+        },
+        "buttons": {
+          "code": "Code",
+          "running": "Running Project"
+        }
+      }
+    }
+  },
+  "components": {
+    "header": {
+      "home": "Home Page",
+      "about-me": "About Me",
+      "projects": "Projects"
+    }
+  }
+}
