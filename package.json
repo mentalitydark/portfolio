@@ -26,7 +26,6 @@
     "next-intl": "^3.4.4",
     "react": "^18",
     "react-dom": "^18",
-    "sharp": "^0.33.2",
     "uuidv4": "^6.2.13"
   },
   "devDependencies": {
